@@ -8,10 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        blurButtonDarker: "#C2BDBD",
+        darkPrimary: "#1A1A1A",
+        primaryRed: "#D96464",
+        primaryYellow: "#FFD700",
       },
     },
   },

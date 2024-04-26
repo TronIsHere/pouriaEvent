@@ -2,32 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.gButton {
+    background: linear-gradient(to top, rgba(194, 189, 189, 0.1), rgba(194, 189, 189, 0.4));
+}
+.border-wrap {
+  background: linear-gradient(to top left, rgba(119, 83, 38, 1), rgba(225, 184, 133, 1));
+  padding: 7px;
+  overflow: visible; /* Allow contents to go outside the box */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.cBorder {
+  background: #1A1A1A;
+  color: white;
+  overflow: visible; /* Allow contents to go outside the box */
+}
+
+.dot {
+    position: relative;
+    width: fit-content;
+    background: linear-gradient(135deg, #DD4242, #DD4242 48%, #DD4242);
+    border-radius: 40px;
+    width: 0.75rem;
+    height: 0.75rem;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .heartbeat {
+    position: absolute;
+    width: fit-content;
+    background-color: rgba(221, 66, 66, 0.34);
+    border-radius: 40px;
+    width: 0.75rem;
+    height: 0.75rem;
+    opacity: 0.80;
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
-}
+  
+  @keyframes ping {
+    75%,
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+  .element {
+    box-shadow: inset 0 -36px 34px 30px #1A1A1A;
+  }
+  .gradient-text {
+    background: linear-gradient(to right, rgba(119, 83, 38, 1), rgba(225, 184, 133, 1)); /* Gradient from brown to light brown */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* Ensure text color is transparent for non-webkit browsers */
+    font-size: 24px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+  }
+  
