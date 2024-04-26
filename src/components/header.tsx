@@ -2,9 +2,9 @@ import Image from "next/image";
 import CountDownTimer from "./ui/count-down-timer";
 const HeaderC = () => {
   return (
-    <div className="grid grid-cols-2 mt-16">
-      <div className="flex flex-col">
-        <div className="text-primaryRed flex">
+    <div className="grid grid-cols-1 lg:grid-cols-2 mt-16">
+      <div className="flex flex-col order-2 lg:order-1">
+        <div className="text-primaryRed flex mt-10 lg:mt-0x">
           <div className="flex items-center pr-2">
             <span className="heartbeat"></span>
             <span className="dot"></span>
@@ -26,13 +26,25 @@ const HeaderC = () => {
           <CountDownTimer targetDate="2024-05-09T18:00:00" />
         </div>
       </div>
-      <div className="bg-darkPrimary w-screen rounded-l-full pl-24 py-20">
-        <Image
-          src={"/images/eventBg.png"}
-          alt="event bg"
-          width={500}
-          height={500}
-        ></Image>
+      <div className="bg-darkPrimary w-screen rounded-l-full flex justify-center lg:block  pl-0 lg:pl-24 py-20 order-1 lg:order-2">
+        <div className="hidden lg:block">
+          {" "}
+          <Image
+            src={"/images/eventBg.png"}
+            alt="event bg"
+            width={500}
+            height={500}
+          ></Image>
+        </div>
+        <div className="block lg:hidden">
+          {" "}
+          <Image
+            src={"/images/eventBg.png"}
+            alt="event bg"
+            width={300}
+            height={300}
+          ></Image>
+        </div>
       </div>
     </div>
   );

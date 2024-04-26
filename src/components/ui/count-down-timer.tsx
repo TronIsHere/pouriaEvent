@@ -45,7 +45,7 @@ const CountDownTimer: React.FC<CountDownTimerProps> = ({ targetDate }) => {
   const hasTimeLeft = Object.keys(timeLeft).length > 0;
 
   return (
-    <div className="flex text-3xl">
+    <div className="flex text-xl flex-wrap justify-center lg:justify-start lg:text-3xl">
       {hasTimeLeft && (
         <>
           <div className="flex flex-col items-center border-r-[1.5px] pr-6 border-black/15">
@@ -60,7 +60,7 @@ const CountDownTimer: React.FC<CountDownTimerProps> = ({ targetDate }) => {
             <span>{(timeLeft as TimeLeft).minutes}</span>
             <span>Minutes</span>
           </div>
-          <div className="flex flex-col items-center border-r-[1.5px] px-6 border-black/15">
+          <div className="flex flex-col items-center pl-6 lg:pr-6 mt-5 lg:mt-0 border-black/15">
             <span>{(timeLeft as TimeLeft).seconds}</span>
             <span>Seconds</span>
           </div>

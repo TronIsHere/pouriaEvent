@@ -5,7 +5,7 @@ import Topics from "@/components/topics";
 import { BsMouse } from "react-icons/bs";
 const Home = () => {
   return (
-    <div className="max-w-[1300px]  mx-auto mt-5 relative">
+    <div className="max-w-[1300px] mx-auto mt-5 relative px-4">
       <MenuBar />
       <HeaderC />
       <div className="flex justify-center mt-16">

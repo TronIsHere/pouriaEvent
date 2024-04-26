@@ -12,6 +12,7 @@ const config: Config = {
         blurButtonDarker: "#C2BDBD",
         darkPrimary: "#1A1A1A",
         primaryRed: "#D96464",
+        secondaryRed: "#DD4242",
         primaryYellow: "#FFD700",
       },
     },

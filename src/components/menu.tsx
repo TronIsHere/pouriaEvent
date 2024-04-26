@@ -3,10 +3,18 @@ import { HiOutlineTicket } from "react-icons/hi";
 const MenuBar = () => {
   return (
     <div className="flex justify-between">
-      <div>
+      <div className="hidden lg:block">
         <Image
           src={"/images/logo2.png"}
           width={200}
+          height={100}
+          alt={"logo"}
+        />
+      </div>
+      <div className="block lg:hidden">
+        <Image
+          src={"/images/logo2.png"}
+          width={150}
           height={100}
           alt={"logo"}
         />
