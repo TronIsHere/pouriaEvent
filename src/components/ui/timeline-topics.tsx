@@ -58,7 +58,7 @@ const Timeline = ({
       <div className="bg-black px-5 py-4 text-white rounded-xl">
         STARTING THE EVENT AT 17:00
       </div>
-      <div className="wrapper w-1/4">
+      <div className="wrapper w-1/4 lg:w-full">
         <div id="timeline1" ref={timeline1} className="timeline" />
         <div className="circleWrapper">
           <div id="circle1" ref={circle1} className="circle">
