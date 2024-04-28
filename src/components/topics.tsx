@@ -76,29 +76,30 @@ const Topics = () => {
 
             <div className=" mt-10 ml-5">
               <p className="text-lg">
-                The event "BizTalk: The Rules of Success" promises an engaging
-                and insightful experience as it hosts a series of talks by
-                notable speakers Pouria Sadeghi, Soheil Eghtesadi, and Nima
+                The event &quot;BizTalk: The Rules of Success&quot; promises an
+                engaging and insightful experience as it hosts a series of talks
+                by notable speakers Pouria Sadeghi, Soheil Eghtesadi, and Nima
                 Attar. Each speaker will explore distinct aspects of personal
                 and professional success, tailored to inspire and educate
                 attendees.
                 <br />
                 <br /> Pouria Sadeghi will delve into the dynamics of achieving
-                top financial success as an immigrant. His talk, titled "How to
-                Become Top 1%," will cover the strategies and mindsets that can
-                help one excel financially in a new country. He'll share his
-                personal experiences and practical advice on building multiple
-                streams of income and navigating the complexities of financial
-                growth in a competitive environment.
+                top financial success as an immigrant. His talk, titled
+                &quot;How to Become Top 1%,&quot; will cover the strategies and
+                mindsets that can help one excel financially in a new country.
+                He&apos;ll share his personal experiences and practical advice
+                on building multiple streams of income and navigating the
+                complexities of financial growth in a competitive environment.
                 <img
                   src="/images/p4.jpg"
                   className="mt-5 rounded-xl pb-10"
                 ></img>
-                Soheil Eghtesadi's presentation, "How to Create a New Business,"
-                will focus on entrepreneurial spirit and innovation. He will
-                walk the audience through the journey of identifying a viable
-                product or service, conceptualizing a business model, and the
-                challenges of scaling a startup into a successful business.
+                Soheil Eghtesadi&apos;s presentation, &quot;How to Create a New
+                Business,&quot; will focus on entrepreneurial spirit and
+                innovation. He will walk the audience through the journey of
+                identifying a viable product or service, conceptualizing a
+                business model, and the challenges of scaling a startup into a
+                successful business.
                 <br /> Attendees can expect to gain valuable insights into the
                 entrepreneurial process from ideation to execution.
                 <img
@@ -106,17 +107,18 @@ const Topics = () => {
                   className="mt-5 rounded-xl pb-10 overflow-hidden"
                 ></img>
                 Nima Attar will address the mental and emotional aspects of
-                personal development in his talk "How to Stay Mentally Strong."
-                His session will emphasize building resilience, overcoming
-                fears, and developing a mindset conducive to long-term success.
+                personal development in his talk &quot;How to Stay Mentally
+                Strong.&quot; His session will emphasize building resilience,
+                overcoming fears, and developing a mindset conducive to
+                long-term success.
                 <br />
                 <br /> Through practical tips and motivational anecdotes, Nima
                 aims to equip the audience with tools to strengthen their mental
                 health and fortitude. Together, these speakers will provide a
                 comprehensive overview of the different facets of achieving and
-                maintaining success, making "BizTalk: The Rules of Success" a
-                must-attend event for those looking to elevate their
-                professional and personal lives.
+                maintaining success, making &quot;BizTalk: The Rules of
+                Success&quot; a must-attend event for those looking to elevate
+                their professional and personal lives.
               </p>
             </div>
           </div>
