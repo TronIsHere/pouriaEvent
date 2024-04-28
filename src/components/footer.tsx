@@ -19,11 +19,11 @@ const Footer = () => {
             </svg>
             <blockquote>
               <p className="text-2xl font-medium text-gray-900 dark:text-white">
-                "The journey to success is paved with knowledge and connections.
-                At BizEvent, we unlock both. I've distilled years of my
-                entrepreneurial journey into actionable insights, and I'm
-                thrilled to share them with you. Join us, and let's build your
-                success story together."
+                &quot;The journey to success is paved with knowledge and
+                connections. At BizEvent, we unlock both. I&apos;ve distilled
+                years of my entrepreneurial journey into actionable insights,
+                and I&apos;m thrilled to share them with you. Join us, and
+                let&apos;s build your success story together.&quot;
               </p>
             </blockquote>
             <figcaption className="flex items-center justify-center mt-6 space-x-3">

@@ -6,7 +6,7 @@ const ContactC = () => {
       <div className="w-full rounded-xl bg-darkPrimary h-[250px] mt-60 overflow-hidden flex text-white items-center justify-between">
         <div className="flex flex-col pl-10">
           <p className="text-2xl lg:text-4xl">
-            Reserve your spot before it's too late!
+            Reserve your spot before it&apos;s too late!
           </p>
           <p className="text-xl mt-5 hidden lg:flex">
             Spaces are Limited — Register Today!

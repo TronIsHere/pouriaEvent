@@ -17,8 +17,8 @@ const HeaderC = () => {
         <div className="mt-5 text-xl">
           <p className="pr-16">
             welcome to an opportunity that could redefine your future! We are
-            thrilled to invite you to our exclusive event, "The Rules of
-            Success: How to Become Part of the 1%" where the secrets of the
+            thrilled to invite you to our exclusive event, &quot;The Rules of
+            Success: How to Become Part of the 1%&quot; where the secrets of the
             business elite will unfold right before your eyes.
           </p>
         </div>

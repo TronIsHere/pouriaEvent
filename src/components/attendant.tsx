@@ -6,7 +6,7 @@ const Attendants = () => {
   return (
     <div className="mt-20">
       <div className="flex justify-center">
-        <h1 className="text-4xl font-bold">Who's gonna be there?</h1>
+        <h1 className="text-4xl font-bold">Who&apos;s gonna be there?</h1>
       </div>
       <div className="bg-darkPrimary rounded-3xl w-full mt-10 p-10  grid grid-cols-1 lg:grid-cols-3 justify-center">
         <AttendantProfile
