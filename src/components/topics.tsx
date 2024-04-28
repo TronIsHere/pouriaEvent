@@ -1,13 +1,10 @@
 "use client";
 
-import { FaFacebookF } from "react-icons/fa6";
-import { FiInstagram } from "react-icons/fi";
-import { FaXTwitter } from "react-icons/fa6";
 import { CiCalendarDate } from "react-icons/ci";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { useEffect, useRef, useState } from "react";
+import { FaArrowRightLong, FaFacebookF, FaXTwitter } from "react-icons/fa6";
+import { FiInstagram } from "react-icons/fi";
+import ReactPlayer from "react-player";
 import TimelineObserver from "react-timeline-animation";
-import { cn } from "@/lib/utils";
 import Timeline from "./ui/timeline-topics";
 
 const Topics = () => {
@@ -68,15 +65,60 @@ const Topics = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-4  flex justify-center">
-          <div className=" pt-10 ">
-            <TimelineObserver
-              initialColor="#e5e5e5"
-              fillColor="black"
-              handleObserve={(setObserver) => (
-                <Timeline callback={onCallback} setObserver={setObserver} />
-              )}
-            />
+        <div className="col-span-4 flex justify-center">
+          <div className=" pt-10  w-full">
+            <div className="border-2 rounded-xl ml-5 overflow-hidden border-primaryRed">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=IoTKbA-tNLM&ab_channel=pouriasadeghi"
+                width="100%"
+              />
+            </div>
+
+            <div className=" mt-10 ml-5">
+              <p className="text-lg">
+                The event "BizTalk: The Rules of Success" promises an engaging
+                and insightful experience as it hosts a series of talks by
+                notable speakers Pouria Sadeghi, Soheil Eghtesadi, and Nima
+                Attar. Each speaker will explore distinct aspects of personal
+                and professional success, tailored to inspire and educate
+                attendees.
+                <br />
+                <br /> Pouria Sadeghi will delve into the dynamics of achieving
+                top financial success as an immigrant. His talk, titled "How to
+                Become Top 1%," will cover the strategies and mindsets that can
+                help one excel financially in a new country. He'll share his
+                personal experiences and practical advice on building multiple
+                streams of income and navigating the complexities of financial
+                growth in a competitive environment.
+                <img
+                  src="/images/p4.jpg"
+                  className="mt-5 rounded-xl pb-10"
+                ></img>
+                Soheil Eghtesadi's presentation, "How to Create a New Business,"
+                will focus on entrepreneurial spirit and innovation. He will
+                walk the audience through the journey of identifying a viable
+                product or service, conceptualizing a business model, and the
+                challenges of scaling a startup into a successful business.
+                <br /> Attendees can expect to gain valuable insights into the
+                entrepreneurial process from ideation to execution.
+                <img
+                  src="/images/s2.jpg"
+                  className="mt-5 rounded-xl pb-10 overflow-hidden"
+                ></img>
+                Nima Attar will address the mental and emotional aspects of
+                personal development in his talk "How to Stay Mentally Strong."
+                His session will emphasize building resilience, overcoming
+                fears, and developing a mindset conducive to long-term success.
+                <br />
+                <br /> Through practical tips and motivational anecdotes, Nima
+                aims to equip the audience with tools to strengthen their mental
+                health and fortitude. Together, these speakers will provide a
+                comprehensive overview of the different facets of achieving and
+                maintaining success, making "BizTalk: The Rules of Success" a
+                must-attend event for those looking to elevate their
+                professional and personal lives.
+              </p>
+            </div>
           </div>
         </div>
       </div>
