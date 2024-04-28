@@ -128,7 +128,9 @@
   .circleWrapper {
     position: relative;
   }
-  
+  .rounded-image-custom {
+    border-radius: 999px 100px 100px 999px;
+  }
   .message {
     position: absolute;
     top: 20%;

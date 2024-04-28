@@ -26,7 +26,7 @@ const HeaderC = () => {
           <CountDownTimer targetDate="2024-05-09T18:00:00" />
         </div>
       </div>
-      <div className="bg-darkPrimary w-screen rounded-l-full flex justify-center lg:block  pl-0 lg:pl-24 py-20 order-1 lg:order-2">
+      <div className="bg-darkPrimary  rounded-image-custom  w-full flex justify-center lg:block  pl-0 lg:pl-24 py-20 order-1 lg:order-2">
         <div className="hidden lg:block">
           {" "}
           <Image

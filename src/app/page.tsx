@@ -1,4 +1,6 @@
 import Attendants from "@/components/attendant";
+import ContactC from "@/components/contact";
+import Footer from "@/components/footer";
 import HeaderC from "@/components/header";
 import MenuBar from "@/components/menu";
 import Topics from "@/components/topics";
@@ -13,7 +15,8 @@ const Home = () => {
       </div>
       <Attendants />
       <Topics />
-      <div className="h-[1300px]"></div>
+      <ContactC />
+      <Footer />
     </div>
   );
 };
